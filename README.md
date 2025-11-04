@@ -2,7 +2,7 @@
 
 ## 🌍 Project Overview
 
-**Skyline Estates** is a modern and responsive web platform designed to showcase luxury real estate management, rental, and sales services across **Ras Al Khaimah (RAK)** and **Dubai**.  
+**Skyline Estates** is a modern and responsive web platform designed to showcase luxury real estate management, rental, and sales services across **Dubai**.  
 The design focuses on a high-end aesthetic, using a **dark and gold color palette**.
 
 This project is built with **React** and styled using **Tailwind CSS** to ensure a smooth and professional user experience across all devices.
@@ -16,7 +16,7 @@ This project is built with **React** and styled using **Tailwind CSS** to ensure
 | Section | Description |
 |----------|-------------|
 | **Hero (Home)** | A striking banner highlighting expertise in luxury real estate. |
-| **About Us** | Detailed presentation of the company and CEO (**Mohamed Ali Ben Gaied**) with key statistics. |
+| **About Us** | Detailed presentation of the company and CEO (**Mohamed Ali **) with key statistics. |
 | **Our Projects** | Showcases four flagship real estate projects with an elegant design. |
 | **Our Services** | Clear description of services offered (Management, Rental, Ready or Off-plan Sales) with illustrated cards. |
 | **How It Works** | Explains the client process in three simple steps. |
