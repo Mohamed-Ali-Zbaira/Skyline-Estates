@@ -83,9 +83,9 @@ This project is designed for simple deployment as a **Static Web Service** on Re
 
 ## 🤝 Contact
 
-**Project Owner:** Mohamed Ali Zkara  
-📧 Email: your.email@example.com  
-🔗 LinkedIn: [Your LinkedIn Profile](https://linkedin.com/in/your-profile)
+**Project Owner:** Mohamed Ali Zbaira  
+📧 Email: dev.mohamedalizbaira@gmail.com  
+🔗 LinkedIn: [Your LinkedIn Profile](https://www.linkedin.com/in/mohamed-ali-zbaira)
 
-© 2025 Mohamed Ali Zkara. All rights reserved.
+© 2025 Mohamed Ali Zbaira. All rights reserved.
 
