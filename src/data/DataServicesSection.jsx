@@ -39,5 +39,5 @@ export const services = [
 
 export const sectionHeader = {
   title: "Our Services",
-  description: "Enjoy expert knowledge and personalized service with Empire. Explore our wide range of real estate solutions, from property management and rentals to sales of ready and off-plan properties, tailored to meet your needs in Ras Al Khaimah and Dubai.",
+  description: "Enjoy expert knowledge and personalized service with Skyline Estates. Explore our wide range of real estate solutions, from property management and rentals to sales of ready and off-plan properties, tailored to meet your needs in Ras Al Khaimah and Dubai.",
 };

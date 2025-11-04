@@ -1,4 +1,6 @@
 import { AboutUsSection } from './assets/components/AboutUsSection';
+import ContactSection from './assets/components/ContactSection';
+import { FooterSection } from './assets/components/FooterSection';
 import { HeroSection } from './assets/components/HeroSection';
 import { HowItWorksSection } from './assets/components/HowItWorksSection';
 import { Navbar } from './assets/components/Navbar'
@@ -17,6 +19,8 @@ const App = () => {
       <ServicesSection />
       <HowItWorksSection />
       <TeamSection />
+      <ContactSection />
+      <FooterSection />
 
 
     </div>

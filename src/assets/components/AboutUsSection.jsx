@@ -28,7 +28,7 @@ export const AboutUsSection = () => {
             <div className="bg-white p-1 rounded-lg shadow-lg w-80 h-80 sm:w-96 sm:h-96 lg:w-[400px] lg:h-[400px] overflow-hidden relative lg:-translate-y-5">
               <img 
                 src={ceoImageUrl} 
-                alt="Mohamed Ali Ben Gaied, CEO of Empire Properties" 
+                alt="Mohamed Ali, CEO of Skyline Estates" 
                 className="w-full h-full object-cover rounded-lg"
                 onError={(e) => { 
                   e.target.onerror = null; 
