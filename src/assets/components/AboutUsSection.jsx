@@ -1,0 +1,61 @@
+import React from "react";
+import { ceoImageUrl, aboutUsText, stats } from "../../data/DataAboutUsSection.js";
+
+export const AboutUsSection = () => {
+  return (
+    <section id="about" className="bg-white py-16 px-4 sm:px-6 lg:px-8">
+      <div className="max-w-screen-xl mx-auto">
+        
+        {/* En-tête de section */}
+        <div className="text-gray-900 mb-12">
+          <h2 className="text-3xl sm:text-4xl font-extrabold flex items-center">
+            <span className="text-amber-400 text-4xl mr-3">/</span> Who We Are
+          </h2>
+        </div>
+
+        {/* Contenu principal : deux colonnes */}
+        <div className="lg:flex lg:gap-16 items-start mb-16">
+          
+          {/* Colonne gauche : texte */}
+          <div className="lg:w-1/2 space-y-8 text-gray-700 leading-relaxed text-lg">
+            {aboutUsText.map((paragraph, index) => (
+              <p key={index}>{paragraph}</p>
+            ))}
+          </div>
+
+          {/* Colonne droite : image */}
+          <div className="lg:w-1/2 mt-10 lg:mt-0 flex justify-center lg:justify-end relative">
+            <div className="bg-white p-1 rounded-lg shadow-lg w-80 h-80 sm:w-96 sm:h-96 lg:w-[400px] lg:h-[400px] overflow-hidden relative lg:-translate-y-5">
+              <img 
+                src={ceoImageUrl} 
+                alt="Mohamed Ali, CEO of Skyline Estates" 
+                className="w-full h-full object-cover rounded-lg"
+                onError={(e) => { 
+                  e.target.onerror = null; 
+                  e.target.src = "https://placehold.co/400x400/000000/ffffff?text=Image+CEO"; 
+                }}
+              />
+              {/* Petit diamant en bas à droite */}
+              <div className="absolute bottom-2 right-2 w-4 h-4 bg-amber-400 rotate-45"></div>
+            </div>
+          </div>
+        </div>
+        
+        {/* Statistiques */}
+        <div className="mt-16 pt-12 border-t border-gray-200 grid grid-cols-3 gap-8 text-center">
+          {stats.map((stat) => (
+            <div key={stat.value}>
+              <p className="text-4xl sm:text-5xl font-extrabold text-amber-400 mb-2">
+                {stat.value}
+              </p>
+              <p className="text-gray-600 uppercase tracking-wider text-xs sm:text-sm">
+                {stat.label}
+              </p>
+            </div>
+          ))}
+        </div>
+        
+      </div>
+    </section>
+  );
+};
